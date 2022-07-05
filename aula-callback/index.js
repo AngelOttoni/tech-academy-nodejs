@@ -1,11 +1,11 @@
-function mensagemGabriel(callback) {
+function myMessage(callback) {
     setTimeout(() => {
-        console.log('Bebam água!');
+        console.log('Bebam água e vamos de NodeJS!');
         callback();
     }, 0);
 }
 
-function mensagemRafael() {
+function messageResponse() {
     console.log('Hidratado! Bora pra cima!');
 }
 
